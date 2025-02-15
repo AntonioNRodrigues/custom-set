@@ -21,7 +21,7 @@ The `CustomLinkedHashSet` maintains insertion order using a doubly-linked list a
 ## TreeSet
 - **Temporal Complexity**:
     - Add: O(log n)
-    - Remove: O(log n) (not implemented)
+    - Remove: O(log n)
     - Contains: O(log n)
 
 **Explanation**:
