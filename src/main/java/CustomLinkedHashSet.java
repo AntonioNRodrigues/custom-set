@@ -22,12 +22,11 @@ public class CustomLinkedHashSet<E> {
             node.data = element;
             if (head == null) {
                 head = node;
-                tail = node;
             } else {
                 tail.next = node;
                 node.prev = tail;
-                tail = node;
             }
+            tail = node;
             map.put(element, node);
             return true;
         }
